@@ -9,3 +9,5 @@ docker run --name slidev --rm -it \
     -e NPM_MIRROR="https://registry.npmmirror.com" \
     tangramor/slidev:latest
 ```
+
+docker exec -it slidev npx slidev build *.md --base ./ --download true -o abc
