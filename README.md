@@ -1,6 +1,8 @@
 # slidev
 https://cn.sli.dev/
 
+
+
 ```code
 docker run --name slidev --rm -it \
     --user node \
@@ -13,6 +15,9 @@ docker exec -it slidev \
        npx slidev build *.md \
                   -o abc \
                   --base ./ --download true
-```
 
+```
+npm i -D playwright-chromium
+
+npx slidev export slides.md --format pptx
 
